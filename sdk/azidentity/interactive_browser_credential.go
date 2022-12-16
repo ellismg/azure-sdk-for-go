@@ -73,7 +73,7 @@ func (c *InteractiveBrowserCredential) GetToken(ctx context.Context, opts policy
 		return azcore.AccessToken{Token: ar.AccessToken, ExpiresOn: ar.ExpiresOn.UTC()}, err
 	}
 
-	o := []public.InteractiveAuthOption{}
+	o := []public.AcquireInteractiveOption{}
 	if c.options.RedirectURL != "" {
 		o = append(o, public.WithRedirectURI(c.options.RedirectURL))
 	}

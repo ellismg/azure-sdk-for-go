@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.0.0
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0
-	github.com/AzureAD/microsoft-authentication-library-for-go v0.7.0
+	github.com/AzureAD/microsoft-authentication-library-for-go v0.6.1-0.20230119211401-18d183375da4
 	github.com/golang-jwt/jwt/v4 v4.4.2
 	golang.org/x/crypto v0.0.0-20220511200225-c6db032c6c88
 )
